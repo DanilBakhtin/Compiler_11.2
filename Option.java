@@ -76,6 +76,7 @@ class Output_Result{
                     break;
                 default:
                     System.out.println("Нет такой команды!");
+                    return;
             }
         }
 
